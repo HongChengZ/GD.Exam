@@ -8,7 +8,7 @@ public class LoadGame : MonoBehaviour
     public void SceneLoader(int SceneIndex)
     {
         SceneManager.LoadScene(SceneIndex);
-        //SceneManager.LoadScene("LVL.1");
+        
     }
     
 }

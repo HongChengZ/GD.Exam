@@ -2053,6 +2053,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &641697449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 641697451}
+  - component: {fileID: 641697450}
+  m_Layer: 0
+  m_Name: WindSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &641697450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641697449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
+--- !u!4 &641697451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641697449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 144.8, y: 45.8, z: -83.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &648138762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2579,8 +2633,8 @@ GameObject:
   m_Component:
   - component: {fileID: 760181772}
   - component: {fileID: 760181771}
-  - component: {fileID: 760181770}
   - component: {fileID: 760181769}
+  - component: {fileID: 760181770}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -2626,14 +2680,19 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: Cinemachine.CinemachineBrain+VcamActivatedEvent, Cinemachine, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!81 &760181770
-AudioListener:
+--- !u!114 &760181770
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760181768}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0
 --- !u!20 &760181771
 Camera:
   m_ObjectHideFlags: 0
@@ -2765,7 +2824,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913991220}
-  m_LocalRotation: {x: -0.014682419, y: 0.7786961, z: 0.018235143, w: 0.6269644}
+  m_LocalRotation: {x: -0.014682424, y: 0.7786961, z: 0.018235153, w: 0.62696433}
   m_LocalPosition: {x: 159.62, y: 33.49, z: -70.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2934,7 +2993,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926817322}
-  m_LocalRotation: {x: 0.06756291, y: -0.8385326, z: 0.10689932, w: 0.5299724}
+  m_LocalRotation: {x: 0.06756292, y: -0.83853275, z: 0.10689936, w: 0.5299724}
   m_LocalPosition: {x: 160.02151, y: 34.53, z: -65.22848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
