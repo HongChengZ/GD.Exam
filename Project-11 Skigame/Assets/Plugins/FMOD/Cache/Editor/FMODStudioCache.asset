@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8634315753733690054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Congrats.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Congrats.bank
+  SubDir: 
+  lastModified: 637290359830398488
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8574530433522796873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36,6 +54,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8502751894906091007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Wind.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Wind.bank
+  SubDir: 
+  lastModified: 637290359831372005
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7449578545838353293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +105,7 @@ MonoBehaviour:
   Path: event:/Background Music
   guid: 89fa7558eb5d514babe6fe37a0c99ed0
   Banks:
-  - {fileID: 4588365068764105869}
+  - {fileID: -2868755676512504516}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -113,6 +149,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-6459711359630717941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MenuMusic.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/MenuMusic.bank
+  SubDir: 
+  lastModified: 637290359831156762
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-6341133694484793363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -203,6 +257,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-4957971963487757273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Wind.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Wind.bank
+  SubDir: 
+  lastModified: 637290359568649116
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-4692698766745060969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +293,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-3578564477770450313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Congrats.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Congrats.bank
+  SubDir: 
+  lastModified: 637290359558763731
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3380330467052117207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -256,7 +346,7 @@ MonoBehaviour:
   lastModified: 637289646648008836
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-2888525969640228192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,6 +365,42 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2876771985763403333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Fail.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Fail.bank
+  SubDir: 
+  lastModified: 637290359830647842
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2868755676512504516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637290359830907045
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2214734832704732638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -292,7 +418,7 @@ MonoBehaviour:
   lastModified: 637289646648322087
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-866261454489062976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,21 +451,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 5883751139110927621}
-  - {fileID: -3299228524766688592}
-  - {fileID: -2214734832704732638}
-  - {fileID: 4588365068764105869}
-  - {fileID: 2461958531581051032}
+  - {fileID: -8634315753733690054}
+  - {fileID: -2876771985763403333}
+  - {fileID: -2868755676512504516}
+  - {fileID: -6459711359630717941}
+  - {fileID: -8502751894906091007}
   EditorEvents:
   - {fileID: 4108144100951733443}
   - {fileID: 3903130618644264486}
   - {fileID: -6879749241881892421}
   - {fileID: 6706009593845777100}
+  - {fileID: 6314570030981411770}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 4588365068764105869}
+  - {fileID: -2868755676512504516}
   StringsBanks:
   - {fileID: 5883751139110927621}
-  stringsBankWriteTime: 637289646648622735
+  stringsBankWriteTime: 637290359830926988
   cacheVersion: 3
 --- !u!114 &259342714407905067
 MonoBehaviour:
@@ -374,6 +502,24 @@ MonoBehaviour:
   Path: FmodExam/Build/Desktop/Master.bank
   SubDir: 
   lastModified: 637289640013928995
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &814399295731704830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MenuMusic.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/MenuMusic.bank
+  SubDir: 
+  lastModified: 637290359561854038
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -502,7 +648,7 @@ MonoBehaviour:
   lastModified: 637289646648864507
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &3746934097719516204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,7 +682,7 @@ MonoBehaviour:
   Path: event:/Fail
   guid: 68264020e597f84f8ea9dea9c96caf30
   Banks:
-  - {fileID: -2214734832704732638}
+  - {fileID: -2876771985763403333}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -559,7 +705,7 @@ MonoBehaviour:
   Path: event:/Congrats
   guid: e11937a6a41f7b408498e9cdfbea0784
   Banks:
-  - {fileID: -3299228524766688592}
+  - {fileID: -8634315753733690054}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -602,7 +748,7 @@ MonoBehaviour:
   lastModified: 637289646648582176
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &5019498691657351936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -653,11 +799,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: FmodExam/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637289646648622735
+  lastModified: 637290359830926988
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1004
+    Value: 1108
   Exists: 1
 --- !u!114 &6015862539718714092
 MonoBehaviour:
@@ -695,6 +841,29 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &6314570030981411770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/344887__lextrack__sound-of-strong-wind
+  m_EditorClassIdentifier: 
+  Path: event:/344887__lextrack__sound-of-strong-wind
+  guid: 6f393788c438054d8d77614bdf1d4682
+  Banks:
+  - {fileID: -8502751894906091007}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19748
 --- !u!114 &6706009593845777100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +879,7 @@ MonoBehaviour:
   Path: event:/MenuMusic
   guid: d544dbd4e11bb64ab2f4f7e3bab5f621
   Banks:
-  - {fileID: 2461958531581051032}
+  - {fileID: -6459711359630717941}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -772,6 +941,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &7253860709147650231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637290359561056676
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8063565950034461500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +974,24 @@ MonoBehaviour:
   Path: FmodExam/Build/Desktop/Congrats.bank
   SubDir: 
   lastModified: 637289642812301589
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8283744668472247833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Fail.bank
+  m_EditorClassIdentifier: 
+  Path: FmodExam/Build/Desktop/Fail.bank
+  SubDir: 
+  lastModified: 637290359560449624
   LoadResult: 0
   FileSizes: []
   Exists: 0

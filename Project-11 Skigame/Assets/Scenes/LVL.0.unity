@@ -467,7 +467,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-306816
+  m_Name: pb_Mesh-12214
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -703,6 +703,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 412626857}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &161630524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161630526}
+  - component: {fileID: 161630525}
+  m_Layer: 0
+  m_Name: WindSound (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &161630525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161630524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/344887__lextrack__sound-of-strong-wind
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &161630526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161630524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 145.93, y: 44.08, z: -72.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &172363484
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,7 +1068,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-306810
+  m_Name: pb_Mesh-12208
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1177,7 +1231,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-306914
+  m_Name: pb_Mesh-12312
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1688,6 +1742,60 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 134235601}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &477661859
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477661861}
+  - component: {fileID: 477661860}
+  m_Layer: 0
+  m_Name: WindSound (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &477661860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477661859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/344887__lextrack__sound-of-strong-wind
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &477661861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477661859}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 158.9, y: 109.4, z: -83.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &482024215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,16 +2191,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  Event: event:/344887__lextrack__sound-of-strong-wind
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &641697451
 Transform:
   m_ObjectHideFlags: 0
@@ -2101,7 +2209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641697449}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 144.8, y: 45.8, z: -83.5}
+  m_LocalPosition: {x: 162.34, y: 46.44, z: -70.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2466,7 +2574,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-306906
+  m_Name: pb_Mesh-12304
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2824,7 +2932,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913991220}
-  m_LocalRotation: {x: -0.014682424, y: 0.7786961, z: 0.018235153, w: 0.62696433}
+  m_LocalRotation: {x: -0.0146822445, y: 0.7786962, z: 0.018235294, w: 0.62696433}
   m_LocalPosition: {x: 159.62, y: 33.49, z: -70.61}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2993,7 +3101,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926817322}
-  m_LocalRotation: {x: 0.06756292, y: -0.83853275, z: 0.10689936, w: 0.5299724}
+  m_LocalRotation: {x: 0.06756291, y: -0.8385326, z: 0.10689932, w: 0.5299724}
   m_LocalPosition: {x: 160.02151, y: 34.53, z: -65.22848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3822,13 +3930,19 @@ PlayableDirector:
     value: {fileID: 690511843}
   m_ExposedReferences:
     m_References:
+    - 08f581695514b4141ad2779ea73880af: {fileID: 641697449}
     - 75976ede77a87324a99a613063ccdce8: {fileID: 0}
     - fe700e28165202d49b4bcd961e50302b: {fileID: 926817323}
+    - 3025f1aca082e0b4ea791fd080bb89b1: {fileID: 641697449}
     - ab9841b816fcf3f4f948076709bc1bdd: {fileID: 926817323}
     - 77701d52de89cf9498ef292312e60ccc: {fileID: 36321594}
+    - d704f273fe5a16047827e1dbda443949: {fileID: 641697449}
+    - 381d696bd728ad7439a4605293c3eea9: {fileID: 641697449}
     - 99084e60aafd9fd42abf639d1276f463: {fileID: 1784334768}
     - c68881bdfc8c9854684bd2c3857cfd27: {fileID: 201325268}
     - 320129848fe90f942b6e323c3b4ba385: {fileID: 201325268}
+    - 8c5819a4a1e42644a83cb220cf0c853c: {fileID: 641697449}
+    - 77c1cf220b9c41f4d9303ae8824e21d0: {fileID: 641697449}
     - 9809aae7360291a428d8b49b8b7697fa: {fileID: 913991221}
     - c5be88a61ff75c241b55b2ee2db2ee94: {fileID: 36321594}
 --- !u!4 &1335123438
@@ -4248,7 +4362,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-306918
+  m_Name: pb_Mesh-12316
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5186,7 +5300,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-306820
+  m_Name: pb_Mesh-12218
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

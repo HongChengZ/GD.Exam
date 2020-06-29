@@ -82,5 +82,6 @@ MonoBehaviour:
   - Congrats
   - Fail
   - MenuMusic
+  - Wind
   BanksToLoad: []
   LiveUpdatePort: 9264
